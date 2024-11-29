@@ -1,53 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Java</title>
 
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="container">
+
+    <div class="container custom-container bg-white border px-3 py-4">
         <header class="header">
-            <div class="header__row">
-                <a href="/" class="logo">
-                    <img src="/images/coding-logo-design-template-vector.jpg" alt="">
-                </a>
-                <div class="nav">
-                    <nav>
-                        <ul class="nav_list">
-                            <li class="nav_item"><a href="/cpp.html">C++</a></li>
-                            <li class="nav_item"><a href="/java.html">Java</a></li>
-                            <li class="nav_item"><a href="/python.html">Python</a></li>
-                            <li class="nav_item"><a href="/javascript.html">JavaScript</a></li>
-                            <li class="nav_item"><a href="/cs.html">C#</a></li>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <a href="/" class="logo">
+                        <img src="/images/coding-logo-design-template-vector.jpg" alt="" class="rounded-circle" style="width: 70px; height: 70px;">
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <nav class="mx-5">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark px-3 py-2 position-relative custom-hover" href="/cpp.html">C++</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark px-3 py-2 position-relative custom-hover" href="/java.html">Java</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark px-3 py-2 position-relative custom-hover" href="/python.html">Python</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark px-3 py-2 position-relative custom-hover" href="/javascript.html">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark px-3 py-2 position-relative custom-hover" href="/cs.html">C#</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
 
-        <section>
-            <div class="card">
-                <div class="card__image">
-                  <img src="/images/java-icon-2048x2048-3pfathb3.png" alt="Sample Image">
+        <main class="my-5">
+            <section>
+                <div class="d-flex rounded-2 overflow-hidden my-5 lh-base">
+                    <div class="row g-0">
+                        <div class="col-md-4 flex-fill d-flex align-items-center">
+                            <img src="/images/java-icon-2048x2048-3pfathb3.png" class="w-100" style="object-fit: fill;" alt="Sample Image">
+                        </div>
+                        <div class="col-md-8 px-3">
+                            <div class="card-body">
+                                <h2 class="card-title fs-4 text-dark mb-3">Java</h2>
+                                <hr class="border-2 border-primary w-25">
+                                <p class=" mt-3 mb-4">
+                                    Java — это объектно-ориентированный, высокоуровневый язык программирования, разработанный компанией Sun Microsystems в 1995 году. Java стал популярным благодаря своей философии "напиши один раз, запускай везде" (Write Once, Run Anywhere). Это означает, что приложения, написанные на Java, могут работать на разных операционных системах без изменений в исходном коде. Язык используется для создания серверных приложений, мобильных приложений для платформы Android, а также в корпоративных и крупных системах, где важна производительность и масштабируемость. Java активно применяется в крупных банковских и финансовых системах, а также в облачных сервисах и интернет вещей.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card__content">
-                  <h2 class="card__title">Java</h2>
-                  <hr class="card__line">
-                  <p class="card__description">
-                    <p class="description__text">
-                        Java — это объектно-ориентированный, высокоуровневый язык программирования, разработанный компанией Sun Microsystems в 1995 году. Java стал популярным благодаря своей философии "напиши один раз, запускай везде" (Write Once, Run Anywhere). Это означает, что приложения, написанные на Java, могут работать на разных операционных системах без изменений в исходном коде. Язык используется для создания серверных приложений, мобильных приложений для платформы Android, а также в корпоративных и крупных системах, где важна производительность и масштабируемость. Java активно применяется в крупных банковских и финансовых системах, а также в облачных сервисах и интернет вещей.    
-                    </p>
-                    
-                  </p>
-                </div>
-              </div>              
-        </section>
+            </section>
+
+        </main>
     </div>
 </body>
 </html>
